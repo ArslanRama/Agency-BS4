@@ -77,6 +77,11 @@ a.navbar-brand {
 
 /* PORTFOLIO */
 
+#portfolio {
+  background-color: #eee;
+  text-align: center;
+}
+
 section h2.section-heading {
   text-transform: uppercase;
   font-size: 40px;
@@ -98,13 +103,18 @@ section h3.section-subheading {
   text-indent: 1.5em;
 }
 
+
+.portfolio-item {
+  margin: 0 0 15px;
+  right: 0
+}
+
 .portfolio-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto
 }
-
 
 .portfolio-hover {
   cursor: pointer;
@@ -135,14 +145,6 @@ section h3.section-subheading {
 
 .portfolio-hover-content i {
   margin-top: -12px
-}
-
-.portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
-  background-color: #fff;
-  text-align: center;
-  padding: 25px
 }
 
 /* MODALS */
