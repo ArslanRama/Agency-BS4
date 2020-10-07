@@ -77,18 +77,128 @@ a.navbar-brand {
 
 /* PORTFOLIO */
 
-.hover-box {
-    position: relative;
-    cursor: pointer;
+#portfolio {
+  background-color: #eee;
 }
 
-.hover-box > div {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
+#portfolio .portfolio-item .portfolio-caption p,
+section h3.section-subheading {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic
+}
+
+section {
+  padding: 100px 0
+}
+
+section h2.section-heading {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px
+}
+
+section h3.section-subheading {
+  font-size: 1em;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 4.7em;
+}
+
+.section-subheading {
+  line-height: 1.5em;
+  max-width: 50em;
+  margin: 0 auto;
+  text-indent: 1.5em;
+}
+
+@media (min-width:768px) {
+  section {
+    padding: 150px 0
+  }
+}
+
+.portfolio-item {
+  margin: 0 0 15px;
+  right: 0
+}
+
+.portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto
+}
+
+.portfolio-hover {
+  cursor: pointer;
+  background: var(--brand-color);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s
+}
+
+.portfolio-hover:hover {
+  opacity: 0.8;
+}
+
+.portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff
+}
+
+.img-fluid {width:100%;}
+
+.portfolio-hover-content i {
+  margin-top: -12px
+}
+
+.portfolio-hover-content h3,
+.portfolio-hover-content h4 {
+  margin: 0
+}
+
+.portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  padding: 25px
+}
+
+.portfolio-caption h4 {
+  text-transform: none;
+  margin: 0
+}
+
+.portfolio-caption p {
+  font-size: 16px;
+  margin: 0
+}
+
+footer span.copyright,
+footer ul.quicklinks {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+#portfolio * {
+  z-index: 2
+}
+
+@media (min-width:767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px
+  }
 }
 
 
@@ -106,3 +216,4 @@ a.navbar-brand {
     background-position: center;
     background-size: cover;
 }
+
