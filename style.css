@@ -51,7 +51,6 @@ a.navbar-brand {
     padding: 100px 0;
 }
 
-
 #services > p, #portfolio > p, #about > p, #team > p {
     color: var(--brand-color);
     font-family: var(--brand-font);
@@ -84,7 +83,7 @@ a.navbar-brand {
 }
 
 .hover-box > div {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -92,9 +91,6 @@ a.navbar-brand {
     opacity: 0;
 }
 
-.fa, .far, .fas {
-    font-family: "Font Awesome 5 Free";
-}
 
 /* MODALS */
 
