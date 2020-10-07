@@ -101,40 +101,21 @@ a.navbar-brand {
     background: white;
     border: 2px solid var(--brand-color);
     cursor: pointer;
-   
 }
 
-.fa, .fas {
-    font-weight: 900;
+.icon-box:hover > .fas {
+    color: var(--brand-color) !important;
 }
-.fa, .far, .fas {
-    font-family: "Font Awesome 5 Free";
-}
+
 .fa-4x {
     font-size: 4em;
 }
-.fa, .fab, .fad, .fal, .far, .fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-}
-
 
 /* PORTFOLIO */
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 .hover-box {
     position: relative;
+    cursor: pointer;
 }
 
 .hover-box > div {
@@ -145,20 +126,12 @@ a.navbar-brand {
     height: 100%;
     opacity: 0;
 }
-.align-items-center {
-    -ms-flex-align: center!important;
-    align-items: center!important;
+
+.fa-plus:before {
+    content: "\f067";
 }
-.justify-content-center {
-    -ms-flex-pack: center!important;
-    justify-content: center!important;
-}
-.d-flex {
-    display: -ms-flexbox!important;
-    display: flex!important;
-}
-.bg-warning {
-    background-color: #ffc107!important;
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
 }
 
 /* MODALS */
@@ -166,7 +139,6 @@ a.navbar-brand {
 .modal-btn {
     background: var(--brand-color);
 }
-
 
 /* CONTACT */
 
