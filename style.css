@@ -82,6 +82,10 @@ a.navbar-brand {
   text-align: center;
 }
 
+i {
+  color: pink;
+}
+
 section h2.section-heading {
   text-transform: uppercase;
   font-size: 40px;
